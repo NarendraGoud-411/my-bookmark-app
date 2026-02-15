@@ -64,3 +64,6 @@ The Solution: I had to make sure three different websites had the exact same lin
 The Problem: The app would sometimes crash (go white) because it tried to load bookmarks before the user was even logged in.
 
 The Solution: I added an "if" check in my code. I told the app: "Only fetch data if the user is logged in". I also added a loading spinner so the user knows the app is thinking.
+
+**Live link** :
+https://my-bookmark-app-hazel.vercel.app
